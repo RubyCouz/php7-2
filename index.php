@@ -6,8 +6,8 @@
   </head>
   <body>
     <form class="" action="user.php" method="POST">
-      <input type="text" name="lastname" placeholder="Nom" />
-      <input type="text" name="firstname" placeholder="Prénom">
+      <label for='lastname'>Nom</label><input id='lastname' type="text" name="lastname" placeholder="Nom" />
+      <label for='firstname'>Prénom</label><input id='firstname' type="text" name="firstname" placeholder="Prénom">
       <input type="submit" value="Valider">
     </form>
 
